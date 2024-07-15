@@ -1,6 +1,6 @@
 {
-  "extends": "../tsconfig.json",
-  "include": ["./scripts", "./test"],
+  //"extends": "../tsconfig.json",
+  "include": ["./scripts", "./test", "../scroll-gateway/src/ScrollProofService.ts"],
   "files": ["hardhat.config.ts"],
   "compilerOptions": {
     "esModuleInterop": true,
